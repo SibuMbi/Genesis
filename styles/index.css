@@ -1,0 +1,15 @@
+body {
+width: 1110px;
+height: 1960px;
+}
+
+.nav {
+/* Menu */
+width: 1109px;
+height: 23px;
+left: 126px;
+top: 61px;
+display: flex;
+flex: end;
+}
+
