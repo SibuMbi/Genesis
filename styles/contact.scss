@@ -1,0 +1,166 @@
+body{
+ max-width: 1360px;
+ height: auto;
+ font-family: 'Mulish';
+ font-style: normal;
+}
+
+/*HEADER Section*/
+.header {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between; 
+ align-content: center;
+ max-width: 1180px;
+ height: 23px;
+ font-size: 18px;
+ font-weight: 700;
+ line-height: 23px;
+ margin-top: 40px;
+}
+.logo{
+ margin-left: 40px;
+ margin-top: 20px;
+}
+
+.navbar a{
+ text-decoration: none;
+ margin: 15px;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 23px;
+ letter-spacing: -0.346154px;
+ color: #111111;
+}
+
+.links{
+ display: flex;
+ flex-direction: row;
+ list-style: none;
+}
+
+.link1:hover, .link2:hover{
+ color: #4A4FF2;
+ text-decoration: underline;
+}
+
+/*text-container*/
+.text-container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ margin: 50px;
+ 
+}
+.text-container-left{
+ padding-right: 80px;
+}
+
+.text-container-item1{
+ font-weight: 700;
+ font-size: 40px;
+ line-height: 55px;
+ max-width: 475px;
+ height: 174px;
+ color: #111111;
+}
+
+.text-container-item2{
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 26px;
+ max-width: 445px;
+ height: 56px;
+ color: #111111;
+ mix-blend-mode: normal;
+ opacity: 0.8;
+}
+
+/*Form*/
+.form{
+ display: flex;
+ flex-direction: column;
+ max-width: 475px;
+ padding-top: 50px;
+ gap: 25px;
+}
+
+.form-text{
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 20px;
+ color: #111111;
+ mix-blend-mode: normal;
+ opacity: 0.6;
+}
+
+.form-input{
+ background: #FFFFFF;
+ mix-blend-mode: normal;
+ opacity: 0.3;
+ border: none;
+ max-width: 400px;
+ height: 35px;
+ font-size: 22px;
+}
+
+.form-input--border-bottom{
+ border-bottom: 1px solid #979797;  
+}
+
+.form-input:hover{
+ background: #f1ecec;
+}
+
+.button{
+ height: 50px;
+ width: 125px;
+ border-radius: 0px;
+ background: #4A4FF2;
+}
+
+.button:hover{
+ background: #131674; 
+}
+
+.btn-submit{
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 20px;
+ color: #FFFFFF;
+}
+
+
+
+/*image-container*/
+.image-container{
+ display: flex;
+ justify-content: center;
+ align-content: center;
+}
+
+
+
+/*FOOTER*/
+
+.footer{
+ height: 80px;
+  
+}
+
+.logo{
+  padding-left: 70px;
+}
+
+.links{
+  padding-left: 160px;
+}
+.socialslogo img{
+ margin-top: 20px;
+ margin: 10px;
+}
+
+.socialslogo1:hover, .socialslogo2:hover, .socialslogo3:hover{
+ width: 20px;
+}

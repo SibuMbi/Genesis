@@ -1,0 +1,220 @@
+body {
+ max-width: 1360px;
+ height: auto;
+ font-family: "Mulish";
+ font-style: normal;
+}
+
+/*HEADER section*/
+.header {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: horizontal;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+         flex-direction: row;
+ -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+         justify-content: space-between;
+ -ms-flex-line-pack: center;
+     align-content: center;
+ max-width: 1180px;
+ height: 23px;
+ font-size: 18px;
+ font-weight: 700;
+ line-height: 23px;
+ margin-top: 40px;
+}
+
+.logo {
+ margin-left: 40px;
+ margin-top: 20px;
+}
+
+.navbar a {
+ text-decoration: none;
+ margin: 15px;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 23px;
+ letter-spacing: -0.346154px;
+ color: #111111;
+}
+
+.links {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: horizontal;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+         flex-direction: row;
+ list-style: none;
+}
+
+.link1:hover, .link2:hover {
+ color: #4A4FF2;
+ text-decoration: underline;
+}
+
+/*Text-container*/
+.text-container {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-pack: start;
+     -ms-flex-pack: start;
+         justify-content: flex-start;
+ text-align: start;
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+         flex-direction: column;
+ height: 120px;
+ margin-left: 120px;
+ padding-top: 20px;
+}
+
+.text-container-item1 {
+ font-weight: 700;
+ font-size: 40px;
+ line-height: 55px;
+ max-width: 495px;
+ height: 130px;
+}
+
+.text-container-item2 {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 26px;
+ mix-blend-mode: normal;
+ opacity: 0.8;
+ max-width: 635px;
+ height: 222px;
+}
+
+/*Detail-info*/
+.detail-info {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: horizontal;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+         flex-direction: row;
+ -webkit-box-pack: end;
+     -ms-flex-pack: end;
+         justify-content: flex-end;
+ margin: 10px;
+ padding-bottom: 20px;
+ padding-right: 120px;
+}
+
+.borderline {
+ background: white;
+ opacity: 0.6;
+ border-bottom: 1px solid #979797;
+ margin-bottom: 35px;
+}
+
+.LeftDetail {
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 23px;
+ mix-blend-mode: normal;
+ opacity: 0.5;
+ color: #111111;
+}
+
+.RightDetail {
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 23px;
+ color: #111111;
+}
+
+/*Projectimg1*/
+.projectimg {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+ -ms-flex-line-pack: center;
+     align-content: center;
+}
+
+.projectimg1 {
+ max-width: 1110px;
+ height: 660px;
+}
+
+/*projectparagraph*/
+.projectparagraph {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+ -ms-flex-line-pack: center;
+     align-content: center;
+}
+
+.projectparagraph1 {
+ text-align: start;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 26px;
+ color: #111111;
+ mix-blend-mode: normal;
+ opacity: 0.8;
+ margin: 30px;
+ max-width: 1110px;
+}
+
+/*Projectimages*/
+.projectimages {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: horizontal;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+         flex-direction: row;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+ -ms-flex-line-pack: center;
+     align-content: center;
+ gap: 25px;
+}
+
+.projectimages1 {
+ max-width: 1110px;
+}
+
+/*FOOTER*/
+.footer {
+ height: 80px;
+}
+
+.logo {
+ padding-left: 70px;
+}
+
+.links {
+ padding-left: 160px;
+}
+
+.socialslogo img {
+ margin-top: 20px;
+ margin: 10px;
+}
+
+.socialslogo1:hover, .socialslogo2:hover, .socialslogo3:hover {
+ width: 20px;
+}
