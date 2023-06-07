@@ -29,7 +29,7 @@ body {
  margin-top: 20px;
 }
 
-.navbar a {
+.navbar {
  text-decoration: none;
  margin: 15px;
  font-style: normal;
@@ -54,7 +54,7 @@ body {
  text-decoration: underline;
 }
 
-.text-container {
+.container {
  display: flex;
  -webkit-box-pack: start;
  -ms-flex-pack: start;
@@ -69,7 +69,7 @@ body {
  padding-top: 20px;
 }
 
-.text-container-item1 {
+.item1 {
  font-weight: 700;
  font-size: 40px;
  line-height: 55px;
@@ -77,7 +77,7 @@ body {
  height: 130px;
 }
 
-.text-container-item2 {
+.item2 {
  font-weight: 400;
  font-size: 16px;
  line-height: 26px;
@@ -87,28 +87,31 @@ body {
  height: 222px;
 }
 
-.detail-info {
+.details {
  display: flex;
  -webkit-box-orient: horizontal;
  -webkit-box-direction: normal;
  -ms-flex-direction: row;
  flex-direction: row;
- -webkit-box-pack: end;
- -ms-flex-pack: end;
- justify-content: flex-end;
- margin: 10px;
- padding-bottom: 20px;
- padding-right: 120px;
+ -webkit-box-pack: center;
+ -ms-flex-pack: center;
+ justify-content: center;
+ width: 80px;
+ height: 170px;
 }
 
-.borderline {
+.linkservice {
+ list-style-type: none;
+}
+
+.divider {
  background: white;
  opacity: 0.6;
  border-bottom: 1px solid #979797;
  margin-bottom: 35px;
 }
 
-.LeftDetail {
+.Details {
  font-weight: 700;
  font-size: 18px;
  line-height: 23px;
@@ -117,14 +120,14 @@ body {
  color: #111111;
 }
 
-.RightDetail {
+.text {
  font-weight: 700;
  font-size: 18px;
  line-height: 23px;
  color: #111111;
 }
 
-.projectimg {
+.girlimg {
  display: flex;
  -webkit-box-pack: center;
  -ms-flex-pack: center;
@@ -133,33 +136,35 @@ body {
  align-content: center;
 }
 
-.projectimg1 {
+.girlimg {
  max-width: 1110px;
  height: 660px;
 }
 
-.projectparagraph {
+.girltext {
  display: flex;
  -webkit-box-pack: center;
  -ms-flex-pack: center;
  justify-content: center;
- -ms-flex-line-pack: center;
- align-content: center;
+ -webkit-box-align: center;
+ -ms-flex-align: center;
+ align-items: center;
+ max-width: 1079px;
+ height: 206px;
+ padding-left: 100px;
 }
 
-.projectparagraph1 {
- text-align: start;
- font-weight: 400;
- font-size: 16px;
- line-height: 26px;
- color: #111111;
- mix-blend-mode: normal;
- opacity: 0.8;
- margin: 30px;
- max-width: 1110px;
+.girltext{
+ width: 595px;
+ height: 251px;
+ font-weight: 700;
+ font-size: 28px;
+ line-height: 38px;
+ padding-bottom: 40px;
+ padding-right: 340px;
 }
 
-.projectimages {
+.images {
  display: flex;
  -webkit-box-orient: horizontal;
  -webkit-box-direction: normal;
@@ -171,10 +176,6 @@ body {
  -ms-flex-line-pack: center;
  align-content: center;
  gap: 25px;
-}
-
-.projectimages1 {
- max-width: 1110px;
 }
 
 .footer {
