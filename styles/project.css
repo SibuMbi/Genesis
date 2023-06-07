@@ -40,6 +40,20 @@ body {
  color: #111111;
 }
 
+nav ul{
+ float: right;
+ margin: 20px;
+}
+
+nav ul li{
+ display: inline-block;
+ line-height: 80px;
+ margin: 0 5px;
+}
+
+
+
+
 .links {
  display: flex;
  -webkit-box-orient: horizontal;
